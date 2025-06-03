@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "TE01",
+        "prezzo": 3.9,
+        "barcode_source": "321655643267"
+    },
+    {
+        "id": 2,
+        "nome": "TE02",
+        "prezzo": 5.9,
+        "barcode_source": "42143-4362-98374"
+    },
+    {
+        "id": 4,
+        "nome": "TE03",
+        "prezzo": null,
+        "barcode_source": ""
+    }
+]

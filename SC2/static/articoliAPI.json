@@ -1,0 +1,38 @@
+[
+    {
+        "id": 4,
+        "nome": "TE01",
+        "prezzo": 3.9,
+        "barcode_source": "TE01-M09"
+    },
+    {
+        "id": 5,
+        "nome": "TE02",
+        "prezzo": 5.9,
+        "barcode_source": "42143436298374"
+    },
+    {
+        "id": 6,
+        "nome": "TE03",
+        "prezzo": 15.9,
+        "barcode_source": "42363443242368"
+    },
+    {
+        "id": 9,
+        "nome": "TE04",
+        "prezzo": 3.9,
+        "barcode_source": ""
+    },
+    {
+        "id": 10,
+        "nome": "TE05",
+        "prezzo": 5.9,
+        "barcode_source": ""
+    },
+    {
+        "id": 11,
+        "nome": "TE06",
+        "prezzo": 15.9,
+        "barcode_source": ""
+    }
+]

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Stampa Etichette</h2>
+<form method="POST" action="/stampa_etichette">
+    <div class="mb-3">
+        <input type="text" class="form-control" id="filtro" placeholder="Filtra articoli...">
+    </div>
+    <div class="mb-3">
+        <label for="articolo" class="form-label">Seleziona Articolo</label>
+        <select id="articolo" name="articolo" class="form-select">
+            {% for articolo in articoli %}
+            <option value="{{ articolo['id'] }}">{{ articolo['nome'] }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="quantita" class="form-label">Quantità</label>
+        <input type="number" id="quantita" name="quantita" class="form-control" value="1" min="1">
+    </div>
+    <button type="submit" class="btn btn-primary">Genera</button>
+</form>
+
+<script>
+    document.getElementById('filtro').addEventListener('input', function () {
+        const filtro = this.value.toLowerCase();
+        const opzioni = document.getElementById('articolo').options;
+        for (let opzione of opzioni) {
+            opzione.style.display = opzione.text.toLowerCase().includes(filtro) ? '' : 'none';
+        }
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150">
+    <rect x="0" y="0" width="200" height="150" fill="#f9f9f9" stroke="#000" />
+    <text x="10" y="20" font-size="14" fill="#000" font-family="Arial">Nome: {{ nome }}</text>
+    <text x="10" y="40" font-size="14" fill="#000" font-family="Arial">Prezzo: &#8364; {{ prezzo }}</text>
+    <g transform="translate(10, 60)">
+        {{ codice_barre_svg | safe }}
+    </g>
+</svg>

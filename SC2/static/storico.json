@@ -1,0 +1,118 @@
+{
+    "list": [
+        {
+            "Id": 4,
+            "Articolo": "TE01",
+            "Image": [
+                {
+                    "url": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/uploads/2025/01/14/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/Online Gantt 20241129_4gG2V.png",
+                    "title": "Online Gantt 20241129.png",
+                    "mimetype": "image/png",
+                    "size": 97611,
+                    "width": 1843,
+                    "height": 697,
+                    "id": "atbr6bpx0rej6a1e",
+                    "thumbnails": {
+                        "tiny": {
+                            "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/thumbnails/2025/01/14/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/Online%20Gantt%2020241129_4gG2V.png/tiny.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=7f7dc8bc5ceec5ee635d7d637379ef040981642965924200e7ddcc9f14afd830&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22Online%20Gantt%2020241129.png%22&response-content-type=image%2Fjpeg&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                        },
+                        "small": {
+                            "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/thumbnails/2025/01/14/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/Online%20Gantt%2020241129_4gG2V.png/small.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=fe91ea0f64d4656e6ad2b9d6e5a302206100e82605c748b1a3df3dfc3f397d8f&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22Online%20Gantt%2020241129.png%22&response-content-type=image%2Fjpeg&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                        },
+                        "card_cover": {
+                            "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/thumbnails/2025/01/14/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/Online%20Gantt%2020241129_4gG2V.png/card_cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=1b55d15bb21c4ec5b5a8a36c389518bab51195f5c42bdfc7a875309565b14328&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22Online%20Gantt%2020241129.png%22&response-content-type=image%2Fjpeg&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                        }
+                    },
+                    "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/uploads/2025/01/14/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/Online%20Gantt%2020241129_4gG2V.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=b191f80f5ad9c8ddd6f25232202eda7d85f5fead716f441d5683f60c382c4faf&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22Online%20Gantt%2020241129.png%22&response-content-type=image%2Fpng&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                }
+            ],
+            "Composizione": "100",
+            "Altezza rotolo": 130,
+            "Prezzo": 3.9,
+            "Codice fornitore": "32165/56432/67",
+            "IsHidden": false
+        },
+        {
+            "Id": 5,
+            "Articolo": "TE02",
+            "Image": [
+                {
+                    "url": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/uploads/2025/01/15/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/TE02_M6XUm.png",
+                    "title": "TE02.png",
+                    "mimetype": "image/png",
+                    "size": 54786,
+                    "width": 697,
+                    "height": 1843,
+                    "id": "atdqz31iilm0tauh",
+                    "thumbnails": {
+                        "tiny": {
+                            "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/thumbnails/2025/01/15/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/TE02_M6XUm.png/tiny.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=47566155a13f5b49fe388859ea8654bc0f5eef35d31e56e20685829fd222593b&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22TE02.png%22&response-content-type=image%2Fjpeg&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                        },
+                        "small": {
+                            "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/thumbnails/2025/01/15/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/TE02_M6XUm.png/small.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=a203c3999b06e4ad200b068ec2a8381284fccd351ae41b8fa35ad4776cded2ba&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22TE02.png%22&response-content-type=image%2Fjpeg&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                        },
+                        "card_cover": {
+                            "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/thumbnails/2025/01/15/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/TE02_M6XUm.png/card_cover.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=004abcdac28cd740a5c81f17a5b178c42638492d08d498911db448a4b98a709d&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22TE02.png%22&response-content-type=image%2Fjpeg&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                        }
+                    },
+                    "signedUrl": "https://nocohub-001-prod-app-attachments.s3.us-east-2.amazonaws.com/nc/uploads/2025/01/15/e3937b66c2f150cd963a9ec9f54ef1ad83e039da/TE02_M6XUm.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIATUJCOBWTKOMQ5JMU%2F20250130%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250130T084742Z&X-Amz-Expires=7338&X-Amz-Signature=03e049320fa50d90d866fc4aed68d0f49d5813197d49325f174856294781916f&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22TE02.png%22&response-content-type=image%2Fpng&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+                }
+            ],
+            "Composizione": "90 10",
+            "Altezza rotolo": 145,
+            "Prezzo": 5.9,
+            "Codice fornitore": "42143/4362/98374",
+            "IsHidden": false
+        },
+        {
+            "Id": 6,
+            "Articolo": "TE03",
+            "Image": null,
+            "Composizione": "75 15 10",
+            "Altezza rotolo": 128,
+            "Prezzo": 15.9,
+            "Codice fornitore": "4236/34432/42368",
+            "IsHidden": false
+        },
+        {
+            "Id": 9,
+            "Articolo": "TE04",
+            "Image": null,
+            "Composizione": "100",
+            "Altezza rotolo": 130,
+            "Prezzo": 3.9,
+            "Codice fornitore": null,
+            "IsHidden": false
+        },
+        {
+            "Id": 10,
+            "Articolo": "TE05",
+            "Image": null,
+            "Composizione": "90 10",
+            "Altezza rotolo": 145,
+            "Prezzo": 5.9,
+            "Codice fornitore": null,
+            "IsHidden": false
+        },
+        {
+            "Id": 11,
+            "Articolo": "TE06",
+            "Image": null,
+            "Composizione": "75 15 10",
+            "Altezza rotolo": 128,
+            "Prezzo": 15.9,
+            "Codice fornitore": null,
+            "IsHidden": false
+        }
+    ],
+    "pageInfo": {
+        "totalRows": 6,
+        "page": 1,
+        "pageSize": 25,
+        "isFirstPage": true,
+        "isLastPage": true
+    },
+    "stats": {
+        "dbQueryTime": "8.297"
+    }
+}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Cartellini Generati (Formato ZPL)</h2>
+<div class="row">
+    {% for cartellino in cartellini %}
+    <div class="col-md-6">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Cartellino ZPL</h5>
+                <pre class="bg-light p-3 border rounded" style="white-space: pre-wrap;">{{ cartellino }}</pre>
+                <!-- Bottone per copiare il codice ZPL -->
+                <button class="btn btn-primary btn-sm" onclick="copyToClipboard(this)">Copia ZPL</button>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+function copyToClipboard(button) {
+    var preElement = button.previousElementSibling;
+    var textArea = document.createElement("textarea");
+    textArea.value = preElement.innerText;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    // alert("Codice ZPL copiato!");
+}
+</script>
+{% endblock %}

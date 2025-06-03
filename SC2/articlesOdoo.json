@@ -1,0 +1,377 @@
+[
+    {
+        "id": 41,
+        "name": "Modello Vittorio",
+        "barcode": "P01-T01-38",
+        "list_price": 180.33,
+        "default_code": "P01-T01-38",
+        "variants": {
+            "Taglia": "38"
+        }
+    },
+    {
+        "id": 42,
+        "name": "Modello Vittorio",
+        "barcode": "P01-T01-40",
+        "list_price": 180.33,
+        "default_code": "P01-T01-40",
+        "variants": {
+            "Taglia": "40"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Modello Vittorio",
+        "barcode": "P01-T01-42",
+        "list_price": 180.33,
+        "default_code": "P01-T01-42",
+        "variants": {
+            "Taglia": "42"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Modello Vittorio",
+        "barcode": "P01-T01-44",
+        "list_price": 180.33,
+        "default_code": "P01-T01-44",
+        "variants": {
+            "Taglia": "44"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Modello Vittorio",
+        "barcode": "P01-T01-46",
+        "list_price": 180.33,
+        "default_code": "P01-T01-46",
+        "variants": {
+            "Taglia": "46"
+        }
+    },
+    {
+        "id": 1,
+        "name": "Tips",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": "TIPS",
+        "variants": {}
+    },
+    {
+        "id": 6,
+        "name": "Aperol Spritz",
+        "barcode": false,
+        "list_price": 9.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 19,
+        "name": "Cheese Bruger",
+        "barcode": "80050020",
+        "list_price": 23.5,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 12,
+        "name": "Coca-Cola",
+        "barcode": false,
+        "list_price": 2.2,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 2,
+        "name": "Cosmopolitan",
+        "barcode": false,
+        "list_price": 12.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 20,
+        "name": "Down Payment (POS)",
+        "barcode": false,
+        "list_price": 0.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 18,
+        "name": "Fanta",
+        "barcode": false,
+        "list_price": 2.2,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 15,
+        "name": "Green Tea",
+        "barcode": false,
+        "list_price": 4.7,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 16,
+        "name": "Ice Tea",
+        "barcode": false,
+        "list_price": 2.2,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 9,
+        "name": "Mai Tai",
+        "barcode": false,
+        "list_price": 13.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 3,
+        "name": "Margarita",
+        "barcode": false,
+        "list_price": 12.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 14,
+        "name": "Minute Maid",
+        "barcode": false,
+        "list_price": 2.2,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 8,
+        "name": "Mojito",
+        "barcode": false,
+        "list_price": 11.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 4,
+        "name": "Moscow Mule",
+        "barcode": false,
+        "list_price": 10.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 11,
+        "name": "Negroni",
+        "barcode": false,
+        "list_price": 12.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 7,
+        "name": "Old Fashioned",
+        "barcode": false,
+        "list_price": 14.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 5,
+        "name": "Pina colada",
+        "barcode": false,
+        "list_price": 13.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 17,
+        "name": "Schweppes",
+        "barcode": false,
+        "list_price": 2.2,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 13,
+        "name": "Water",
+        "barcode": false,
+        "list_price": 2.2,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 10,
+        "name": "Whiskey Sour",
+        "barcode": false,
+        "list_price": 12.0,
+        "default_code": false,
+        "variants": {}
+    },
+    {
+        "id": 25,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Rosso",
+            "Taglia": "52"
+        }
+    },
+    {
+        "id": 26,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Rosso",
+            "Taglia": "44"
+        }
+    },
+    {
+        "id": 27,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Rosso",
+            "Taglia": "46"
+        }
+    },
+    {
+        "id": 28,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Rosso",
+            "Taglia": "48"
+        }
+    },
+    {
+        "id": 29,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Rosso",
+            "Taglia": "50"
+        }
+    },
+    {
+        "id": 30,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Verde",
+            "Taglia": "52"
+        }
+    },
+    {
+        "id": 31,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Verde",
+            "Taglia": "44"
+        }
+    },
+    {
+        "id": 32,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Verde",
+            "Taglia": "46"
+        }
+    },
+    {
+        "id": 33,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Verde",
+            "Taglia": "48"
+        }
+    },
+    {
+        "id": 34,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Verde",
+            "Taglia": "50"
+        }
+    },
+    {
+        "id": 35,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Blu",
+            "Taglia": "52"
+        }
+    },
+    {
+        "id": 36,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Blu",
+            "Taglia": "44"
+        }
+    },
+    {
+        "id": 37,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Blu",
+            "Taglia": "46"
+        }
+    },
+    {
+        "id": 38,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Blu",
+            "Taglia": "48"
+        }
+    },
+    {
+        "id": 39,
+        "name": "cheese",
+        "barcode": false,
+        "list_price": 1.0,
+        "default_code": false,
+        "variants": {
+            "Colore": "Blu",
+            "Taglia": "50"
+        }
+    }
+]

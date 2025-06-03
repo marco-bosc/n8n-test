@@ -1,0 +1,55 @@
+[
+    {
+        "id": "recEh56MHGrirLqAz",
+        "createdTime": "2025-03-24T09:22:04.000Z",
+        "fields": {
+            "Name": "M2470-TE03",
+            "Model": [
+                "reczdCeo42mrjRqN4"
+            ],
+            "Material": [
+                "rec0lRtMaH9tI2l5H"
+            ],
+            "Costo Totale": 0,
+            "Markup": 2.5,
+            "Prezzo di Vendita": 0
+        }
+    },
+    {
+        "id": "recbq3qiFEccFmpfp",
+        "createdTime": "2025-03-24T09:22:04.000Z",
+        "fields": {
+            "Name": "M2470-11000898",
+            "Model": [
+                "reczdCeo42mrjRqN4"
+            ],
+            "Material": [
+                "rec95HwLqJhzLyPIf"
+            ],
+            "BOM": [
+                "recB54XbNwtL1ngxB",
+                "rec1nxnNhB1PxA69E",
+                "recJ6vpC0dcoYROLo"
+            ],
+            "Costo Totale": 6,
+            "Markup": 2.5,
+            "Prezzo di Vendita": 18.3
+        }
+    },
+    {
+        "id": "recqRSfTpyaMU2Nho",
+        "createdTime": "2025-03-24T09:22:04.000Z",
+        "fields": {
+            "Name": "M4020-TE33",
+            "Model": [
+                "rec6Vm8ndonXNXPLT"
+            ],
+            "Material": [
+                "recJ0Z2MAYjCjXjKN"
+            ],
+            "Costo Totale": 0,
+            "Markup": 2.5,
+            "Prezzo di Vendita": 0
+        }
+    }
+]

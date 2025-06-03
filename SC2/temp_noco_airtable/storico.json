@@ -1,0 +1,38 @@
+{
+    "list": [
+        {
+            "Id": 1,
+            "Articolo": "TE01",
+            "Composizione": "100",
+            "Altezza Rotolo": 130,
+            "Prezzo": 3.9,
+            "Codice fornitore": "321655643267"
+        },
+        {
+            "Id": 2,
+            "Articolo": "TE02",
+            "Composizione": "90 10",
+            "Altezza Rotolo": 145,
+            "Prezzo": 5.9,
+            "Codice fornitore": "42143-4362-98374"
+        },
+        {
+            "Id": 4,
+            "Articolo": "TE03",
+            "Composizione": "90",
+            "Altezza Rotolo": null,
+            "Prezzo": null,
+            "Codice fornitore": null
+        }
+    ],
+    "pageInfo": {
+        "totalRows": 3,
+        "page": 1,
+        "pageSize": 25,
+        "isFirstPage": true,
+        "isLastPage": true
+    },
+    "stats": {
+        "dbQueryTime": "7.691"
+    }
+}

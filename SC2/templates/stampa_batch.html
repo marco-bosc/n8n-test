@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+
+
+<h2>Stampa Batch</h2>
+<form method="POST" enctype="multipart/form-data" action="/stampa_batch">
+    <div class="mb-3">
+        <label for="file" class="form-label">Seleziona il file CSV</label>
+        <input type="file" name="file" id="file" class="form-control" accept=".csv" required>
+    </div>
+    
+    <div class="mb-3">
+        <label for="delimiter" class="form-label">Delimitatore CSV</label>
+        <select name="delimiter" id="delimiter" class="form-select">
+            <option value=";" selected>Punto e virgola (;)</option>
+            <option value=",">Virgola (,)</option>
+        </select>
+    </div>
+    
+    <button type="submit" class="btn btn-success">Carica e Stampa</button>
+</form>
+
+{% endblock %}

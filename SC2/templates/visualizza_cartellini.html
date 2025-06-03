@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Cartellini Generati</h2>
+<div class="row">
+    {% for cartellino in cartellini %}
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-body text-center">
+                <embed src="{{ url_for('static', filename=cartellino) }}" type="image/svg+xml" width="200" height="150" />
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
