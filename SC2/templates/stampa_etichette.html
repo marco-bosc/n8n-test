@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Stampa Etichette</h2>
+<!-- <h2>Stampa Etichette</h2>
 <form method="POST" action="/stampa_etichette">
     <div class="mb-3">
         <input type="text" class="form-control" id="filtro" placeholder="Filtra articoli...">
@@ -29,5 +29,56 @@
             opzione.style.display = opzione.text.toLowerCase().includes(filtro) ? '' : 'none';
         }
     });
+</script> -->
+
+<h2>Stampa Etichette</h2>
+
+<form method="POST" action="/stampa_etichette">
+    <table id="articoli-table" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Seleziona</th>
+                <th>Nome</th>
+                <th>Barcode</th>
+                <th>Taglia</th>
+                <th>Quantità</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for articolo in articoli %}
+            <tr>
+                <td>
+                    <input type="checkbox" name="selezionati" value="{{ articolo['barcode_source'] }}">
+                </td>
+                <td>{{ articolo['nome'] }}</td>
+                <td>{{ articolo['barcode_source'] }}</td>
+                <td>{{ articolo['taglia'] or '—' }}</td>
+                <td>
+                    <input type="number" name="quantita_{{ articolo['barcode_source'] }}" min="1" value="1" class="form-control form-control-sm" style="width: 80px;">
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary mt-3">Stampa Selezionati</button>
+</form>
+
+<!-- Include jQuery e DataTables (da CDN) -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#articoli-table').DataTable({
+            language: {
+                search: "Filtra articoli:"
+            },
+            pageLength: 10
+        });
+    });
 </script>
+
+
 {% endblock %}

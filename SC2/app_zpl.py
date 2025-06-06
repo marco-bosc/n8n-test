@@ -71,28 +71,68 @@ def visualizza_cartellini_zpl():
                 cartellini_zpl.append(f.read())
     return render_template("visualizza_cartellini_zpl.html", cartellini=cartellini_zpl)
 
+# @app.route("/stampa_etichette", methods=["GET", "POST"])
+# def stampa_etichette():
+#     articoli = get_articoli(USE_SOURCE)
+#     if request.method == "POST":
+#         articolo_id = request.form["articolo"]
+#         quantita = int(request.form["quantita"])
+#         articolo = next(a for a in articoli if a["id"] == articolo_id)
+
+#         _, zpl_code = genera_cartellino_zpl(articolo, quantita)
+        
+#         if zpl_code is None:
+#             return redirect(url_for("stampa_etichette"))
+
+#         try:
+#             invia_a_stampante(zpl_code)
+#             flash("Stampa inviata con successo!", "success")
+#         except Exception as e:
+#             flash(f"Errore nella stampa: {e}", "danger")
+        
+#         ### Per visualizzare zpl su pagina Web
+#         # return redirect(url_for("visualizza_cartellini_zpl"))
+#     return render_template("stampa_etichette.html", articoli=articoli)
+
 @app.route("/stampa_etichette", methods=["GET", "POST"])
 def stampa_etichette():
     articoli = get_articoli(USE_SOURCE)
-    if request.method == "POST":
-        articolo_id = request.form["articolo"]
-        quantita = int(request.form["quantita"])
-        articolo = next(a for a in articoli if a["id"] == articolo_id)
 
-        _, zpl_code = genera_cartellino_zpl(articolo, quantita)
-        
-        if zpl_code is None:
+    if request.method == "POST":
+        selezionati = request.form.getlist("selezionati")
+
+        if not selezionati:
+            flash("Nessun articolo selezionato per la stampa.", "warning")
             return redirect(url_for("stampa_etichette"))
 
-        try:
-            invia_a_stampante(zpl_code)
-            flash("Stampa inviata con successo!", "success")
-        except Exception as e:
-            flash(f"Errore nella stampa: {e}", "danger")
-        
-        ### Per visualizzare zpl su pagina Web
-        # return redirect(url_for("visualizza_cartellini_zpl"))
+        zpl_completo = ""
+
+        for barcode in selezionati:
+            quantita = int(request.form.get(f"quantita_{barcode}", 1))
+            articolo = next((a for a in articoli if a["barcode_source"] == barcode), None)
+            if not articolo:
+                flash(f"Articolo con barcode {barcode} non trovato.", "danger")
+                continue
+
+            try:
+                _, zpl_code = genera_cartellino_zpl(articolo, quantita)
+                zpl_completo += zpl_code + "\n"
+            except Exception as e:
+                flash(f"Errore generazione etichetta per {barcode}: {e}", "danger")
+
+        if zpl_completo:
+            try:
+                invia_a_stampante(zpl_completo)
+                flash("Stampa inviata con successo!", "success")
+            except Exception as e:
+                flash(f"Errore nella stampa: {e}", "danger")
+        else:
+            flash("Nessuna etichetta generata.", "warning")
+
+        return redirect(url_for("stampa_etichette"))
+
     return render_template("stampa_etichette.html", articoli=articoli)
+
 
 @app.route("/scansione_e_stampa", methods=["GET", "POST"])
 def scansione_e_stampa():
